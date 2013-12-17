@@ -39,12 +39,5 @@ public class HelloServerModule extends AbstractModule
         bind(HelloResource.class).asEagerSingleton();
         
         //bind(DateConfig.class).to(DateTimeImpl.class).asEagerSingleton();
-        
-        //bind(DateConfig.class).to(MorningImpl.class);
-        //bind(DateConfig.class).to(AfternoonImpl.class);
-        //bind(DateConfig.class).to(EveningImpl.class);
-        //bind(DateConfig.class).to(NightImpl.class);
-        
-        
     }
 }

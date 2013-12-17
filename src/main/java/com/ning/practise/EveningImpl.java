@@ -6,7 +6,7 @@ public class EveningImpl implements DateConfig {
 
 	@Override
 	public int displayMessageOnTime() {
-		return 17;
+		return 17; //returning hour of the day
 	}
 
 }

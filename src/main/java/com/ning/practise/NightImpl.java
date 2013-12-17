@@ -6,7 +6,7 @@ public class NightImpl implements DateConfig{
 
 	@Override
 	public int displayMessageOnTime() {
-		return 23;
+		return 23; //returning hour of the day
 	}
 
 }

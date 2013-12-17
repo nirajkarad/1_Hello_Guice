@@ -12,6 +12,7 @@ public class HelloResource
     private final MyConfig config;
     private final DateConfig dc;
 
+    
     @Inject
     public HelloResource(MyConfig config,DateConfig d)
     {
@@ -31,7 +32,6 @@ public class HelloResource
     
     public String displayMessage() {
     	int hour = dc.displayMessageOnTime();
-    	
     	if(hour>= 00 && hour< 12)
 			return "Good Morning";
 		else if (hour>=12 && hour <16)

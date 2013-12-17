@@ -6,7 +6,7 @@ public class MorningImpl implements DateConfig{
 
 	@Override
 	public int displayMessageOnTime() {
-		return 8;
+		return 8; //returning hour of the day
 	}
 
 }
