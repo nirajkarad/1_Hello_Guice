@@ -1,12 +1,8 @@
 package ning.codelab.hello;
 
-import com.google.inject.AbstractModule;
-import com.ning.practise.AfternoonImpl;
-import com.ning.practise.EveningImpl;
-import com.ning.practise.MorningImpl;
-import com.ning.practise.NightImpl;
-
 import ning.configamajig.v1.ConfigModule;
+
+import com.google.inject.AbstractModule;
 
 /**
  * This is the root module for the Hello server. It will install other modules
